@@ -1,0 +1,459 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="mystyle.css" />
+    <script src="script.js" defer></script>
+    <title>Saya Jual PC</title>
+    <link rel="icon" type="image/x-icon" href="awh.jpg" />
+  </head>
+  <body>
+    <nav class="nav-container" id="nav-container">
+      <a href="#" class="logo">SayaJual-PC</a>
+      <ul class="navbar" id="navbar">
+        <li><a href="#">Home</a></li>
+        <li><a href="#spek">Spek PC</a></li>
+        <li><a href="#lain">Barang Lain</a></li>
+        <li><a href="#kontak">Kontak</a></li>
+      </ul>
+
+      <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+
+    <!----Slide Show---->
+    <!-- Slide 1 -->
+    <div class="slider-container">
+      <div class="slide fade">
+        <img src="img/pc1.png" alt="Slide 1" />
+      </div>
+
+      <!-- Slide 2 -->
+      <div class="slide fade">
+        <img src="img/pc2.png" alt="Slide 2" />
+      </div>
+
+      <!-- Slide 3 -->
+      <div class="slide fade">
+        <img src="img/pc-front.png" alt="Slide 3" />
+      </div>
+
+      <!-- Slide 4 -->
+      <div class="slide fade">
+        <img src="img/pc-back.png" alt="Slide 3" />
+      </div>
+
+      <!-- Slide 5 -->
+      <div class="slide fade">
+        <img src="img/pc-top.png" alt="Slide 3" />
+      </div>
+    </div>
+    <!-- Navigation Arrows -->
+    <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+    <a class="next" onclick="changeSlide(1)">&#10095;</a>
+
+    <!--main content-->
+    <br />
+    <h1 style="text-decoration: underline; text-align: center">
+      DIJUAL KOMPUTER GAMING
+    </h1>
+    <p style="text-align: center; font-size: 20px; margin: 15px">
+      Dijual unit komputer saja (<span
+        style="
+          background-color: rgb(255, 0, 0);
+          padding: 2px 5px;
+          border-radius: 15%;
+        "
+        >TANPA</span
+      >
+      mouse, keyboard & monitor), tangan pertama kondisi oke tinggal pakai.
+      Sudah terinstal Windows 11, Ms. Office & Photoshop juga sudah ada.
+      Tersedia banyak
+      <span
+        style="
+          color: black;
+          background-color: rgb(250, 250, 9);
+          padding: 1px 5px;
+          font-weight: 600;
+        "
+        >GAME</span
+      >
+      berbagai genre (Soccer, Racing, Adventure, dll.) pokoknya tinggal main.
+      Minat langsung COD saja. Scroll-scroll di bawah & klik tombol
+      <span
+        style="
+          background-color: rgb(4, 149, 91);
+          padding: 1px 10px;
+          font-weight: 600;
+          border-radius: 30%;
+        "
+        >Beli</span
+      >. Sementara belum bisa kirim. Terima Kasih.
+    </p>
+    <br />
+    <div class="mypc-container">
+      <div class="img-zoom">
+        <img src="img/mypc/mypc1.png" width="200px" height="250px" />
+      </div>
+      <div class="img-zoom">
+        <img src="img/mypc/mypc2.png" width="200px" height="250px" />
+      </div>
+      <div class="img-zoom">
+        <img src="img/mypc/mypc3.png" width="200px" height="250px" />
+      </div>
+      <div class="img-zoom">
+        <img src="img/mypc/mypc4.png" width="150px" height="250px" />
+      </div>
+      <div class="img-zoom">
+        <img src="img/mypc/mypc5.png" width="190px" height="200px" />
+      </div>
+      <div class="img-zoom">
+        <img src="img/mypc/mypc6.png" width="150px" height="250px" />
+      </div>
+      <div class="img-zoom">
+        <img src="img/mypc/mypc7.png" width="150px" height="250px" />
+      </div>
+      <div class="img-zoom">
+        <img src="img/mypc/mypc8.png" width="300px" height="250px" />
+      </div>
+      <div class="img-zoom">
+        <img src="img/mypc/mypc9.png" width="195px" height="250px" />
+      </div>
+      <div class="img-zoom">
+        <img src="img/mypc/mypc10.png" width="280px" height="180px" />
+      </div>
+      <div class="img-zoom">
+        <img src="img/mypc/mypc11.png" width="250px" height="250px" />
+      </div>
+      <br />
+      <!--VIDIO PC-->
+      <div class="hero-video">
+        <video id="bgVideo" autoplay muted loop playsinline>
+          <source src="img/vidpc.mp4" type="video/mp4" />
+        </video>
+        <button id="pauseBtn" class="btn-pause">⏸</button>
+      </div>
+    </div>
+    <br />
+    <div class="content-cont">
+      <section id="spek">
+        <h2 style="text-decoration: underline; padding-top: 60px">
+          Spesifikasi
+        </h2>
+        <button class="accordion">Prosesor</button>
+        <div class="panel">
+          <img
+            src="https://kkomputer.com/3897/amd-ryzen-5-3600-6-cores-36ghz-am4.jpg"
+          />
+          <div class="panel-p">
+            <p>» AMD Ryzen 5 3600x</p>
+            <p>» Box lengkap (ada kipas bawaan)</p>
+          </div>
+        </div>
+
+        <button class="accordion">Video Card</button>
+        <div class="panel">
+          <img
+            src="https://www.asrock.com/Graphics-Card/photo/Radeon%20RX%206600%20XT%20Challenger%20D%208GB%20OC(M1).png"
+          />
+          <div class="panel-p">
+            <p>» AMD Radeon RX 6600 XT</p>
+            <p>» Merk ASRock Challenger</p>
+            <p>» Vram 8GB</p>
+            <p>» Dual fan</p>
+            <p>» Box lengkap</p>
+          </div>
+        </div>
+
+        <button class="accordion">Motherboard</button>
+        <div class="panel">
+          <img
+            src="https://oneit-solution.com/wp-content/uploads/2021/10/4-26-8.jpg"
+          />
+          <div class="panel-p">
+            <p>» Merk Gigabyte B450m Gaming</p>
+            <p>» Tipe mini atx</p>
+            <p>» 2 slot ram</p>
+            <p>» Bonus wifi receiver</p>
+          </div>
+        </div>
+
+        <button class="accordion">RAM</button>
+        <div class="panel">
+          <img
+            src="https://img.lazcdn.com/g/p/91410f8e69284a8a1fa5cc5c6ed314b6.jpg_720x720q80.jpg"
+          />
+          <div class="panel-p">
+            <p>» Merk XPG Spectric D41</p>
+            <p>» 2pcs 8Gb + 8Gb</p>
+            <p>» Nyala RGB bisa disetting</p>
+          </div>
+        </div>
+
+        <button class="accordion">Pendingin Prosesor</button>
+        <div class="panel">
+          <img
+            src="https://rbtechngames.com/wp-content/uploads/2022/09/deepcool_gammax_400xt_2.jpg"
+          />
+          <div class="panel-p">
+            <p>» Deepcool Gammax 400XT</p>
+            <p>» Model 1 kipas</p>
+            <p>» RGB fan</p>
+          </div>
+        </div>
+
+        <button class="accordion">Penyimpanan</button>
+        <div class="pan-penyimpanan">
+          <div class="penyimpanan">
+            <img
+              src="https://webapi3.adata.com/storage/product/23_p_su650_02_0628.jpg"
+            />
+            <div class="pan-penyimpanan-p">
+              <p>» SSD ADATA SU650</p>
+              <p>» Kapasitas 256Gb</p>
+            </div>
+          </div>
+
+          <div class="penyimpanan">
+            <img
+              src="https://images.teamgroupinc.com/products/ssd/m2/ms30/2280/1tb_01.jpg"
+            />
+            <div class="pan-penyimpanan-p">
+              <p>» SSD TEAMGROUP</p>
+              <p>» Kapasitas 512Gb</p>
+            </div>
+          </div>
+
+          <div class="penyimpanan">
+            <img
+              src="https://images.tokopedia.net/img/cache/700/product-1/2020/5/6/5163039/5163039_89fba176-ff4e-4775-94a9-e66effabddd7_1000_1000.webp"
+            />
+            <div class="pan-penyimpanan-p">
+              <p>» Harddisk Seagate</p>
+              <p>» Kapasitas 2Tb</p>
+            </div>
+          </div>
+        </div>
+
+        <button class="accordion">Power Supply</button>
+        <div class="panel">
+          <img
+            src="https://www.fsplifestyle.com/upload/HV_Pro_85plus/s06_psu.png"
+          />
+          <div class="panel-p">
+            <p>» Merk SFP HV Pro</p>
+            <p>» 650 watt</p>
+          </div>
+        </div>
+
+        <button class="accordion">Casing</button>
+        <div class="panel">
+          <img src="img/pc1.png" />
+          <div class="panel-p">
+            <p>» Merk Raptor Black Strike</p>
+            <p>» 3 fan depan</p>
+            <p>» Plus 3 fan tambahan</p>
+          </div>
+        </div>
+        <br />
+      </section>
+      <div class="harga">
+        <p style="font-size: 25px; font-weight: 600">
+          Harga unit komputer sebesar :
+          <span
+            style="
+              font-size: 30px;
+              color: black;
+              background-color: rgb(245, 255, 60);
+              font-weight: 600;
+              padding: 10px 20px;
+            "
+            >Rp.10.700.000</span
+          >
+        </p>
+        <p>Klik tombol berikut jika berminat :</p>
+        <a href="https://wa.me/6283845741541" target="_blank"
+          ><button class="beli">Beli</button></a
+        >
+      </div>
+    </div>
+    <!--RUNNING TEXT-->
+    <div class="simple-marquee">
+      <p>✌︎㋡ BARANG READY !!</p>
+    </div>
+
+    <section id="lain">
+      <div class="other">
+        <h1
+          style="
+            text-decoration: underline;
+            background-color: rgb(164, 237, 18);
+            padding: 10px 15px;
+          "
+        >
+          Barang Lain yang Mungkin Anda Minat
+        </h1>
+
+        <div class="other-card reveal reveal-right">
+          <p
+            style="
+              font-size: 25px;
+              font-weight: 600;
+              color: rgb(0, 0, 0);
+              padding-top: 20px;
+            "
+          >
+            Monitor LG 64GL600F
+          </p>
+          <br />
+          <div class="other-content" style="justify-content: space-between">
+            <img src="img/mon1.png" />
+            <img src="img/mon2.png" />
+            <div class="other-content-p">
+              <p>⌖ Ukuran 24 inch</p>
+              <p>⌖ 1920 x 1080 / 144 Hz</p>
+              <p>⌖ Display port & HDMi</p>
+              <p>⌖ Radeon Freesync</p>
+              <p>⌖ Kondisi OKE BAIK</p>
+              <br />
+              <p
+                style="
+                  font-size: 27px;
+                  padding: 5px 15px;
+                  background-color: rgb(250, 255, 98);
+                "
+              >
+                ⌖ Harga Rp.1.900.000
+              </p>
+              <br />
+              <a href="https://wa.me/6283845741541" target="_blank"
+                ><button class="beli">Beli</button></a
+              >
+            </div>
+          </div>
+        </div>
+        <br />
+
+        <div class="other-card reveal reveal-right">
+          <p
+            style="
+              font-size: 25px;
+              font-weight: 600;
+              color: rgb(0, 0, 0);
+              padding-top: 20px;
+            "
+          >
+            Monitor Acer EB162Q
+          </p>
+          <br />
+          <div class="other-content" style="justify-content: space-between">
+            <img src="https://m.media-amazon.com/images/I/81aD5NH45uL.jpg" />
+            <img src="https://m.media-amazon.com/images/I/81VdAukBM1L.jpg" />
+            <div class="other-content-p">
+              <p>⌖ Ukuran 15,6 inch</p>
+              <p>⌖ 1920 x 1080 / 60 Hz</p>
+              <p>⌖ VGA port</p>
+              <p>⌖ Kondisi OKE BAIK</p>
+              <br />
+              <p
+                style="
+                  font-size: 30px;
+                  padding: 5px 15px;
+                  background-color: rgb(250, 255, 98);
+                "
+              >
+                ⌖ Harga Rp.750.000
+              </p>
+              <br />
+              <a href="https://wa.me/6283845741541" target="_blank"
+                ><button class="beli">Beli</button></a
+              >
+            </div>
+          </div>
+        </div>
+        <br />
+
+        <div class="other-card reveal reveal-right">
+          <p
+            style="
+              font-size: 25px;
+              font-weight: 600;
+              color: rgb(0, 0, 0);
+              padding-top: 20px;
+            "
+          >
+            UPS Prolink
+          </p>
+          <br />
+          <div class="other-content" style="justify-content: center">
+            <img
+              src="https://els.id/wp-content/uploads/2023/09/3456df95-8312-439c-90dd-3080225caa19.jpg"
+            />
+            <div class="other-content-p" style="margin: auto">
+              <p style="margin-top: 20px">⌖ Kapaitas 1000va</p>
+              <p>⌖ 4 port colokan</p>
+              <p>⌖ Kondisi OKE</p>
+              <p>⌖ Sudah pernah ganti aki</p>
+              <p>⌖ Minus body coak tapi gak ngaruh</p>
+              <br />
+              <p
+                style="
+                  font-size: 30px;
+                  padding: 5px 15px;
+                  background-color: rgb(250, 255, 98);
+                "
+              >
+                ⌖ Harga Rp.650.000
+              </p>
+              <br />
+              <a href="https://wa.me/6283845741541" target="_blank"
+                ><button class="beli">Beli</button></a
+              >
+            </div>
+          </div>
+        </div>
+        <br />
+      </div>
+    </section>
+
+    <section id="kontak">
+      <div class="footer">
+        <p style="font-size: 30px; font-weight: 600; text-decoration: overline">
+          Kontak saya di bawah ini 😎:
+        </p>
+        <br />
+        <div class="img-flex">
+          <div class="img1">
+            <a href="https://instagram.com/all._.fine" target="_blank"
+              ><img src="img/igw.png"
+            /></a>
+          </div>
+          <div class="img2">
+            <a href="https://wa.me/6283845741541" target="_blank"
+              ><img src="img/wab.png"
+            /></a>
+          </div>
+          <div class="img3">
+            <a href="index.html#kontak"><img src="img/gmw.png" /></a>
+          </div>
+        </div>
+
+        <br />
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#spek">Spek</a></li>
+          <li><a href="#lain">Barang Lain</a></li>
+          <li><a href="#kontak">Kontak</a></li>
+        </ul>
+
+        <br /><br /><br />
+
+        <p>&copy; 2026 SayaJual-PC by alfin w.h.</p>
+      </div>
+    </section>
+  </body>
+</html>
