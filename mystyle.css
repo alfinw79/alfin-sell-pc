@@ -86,7 +86,7 @@ nav {
 
 /*slider image*/
 .slider-container {
-  max-width: 70%;
+  max-width: 100%;
   margin-top: 65px;
   margin-left: 15%;
   box-shadow: 6px 6px 18px 18px rgba(0, 0, 0, 0.243);
@@ -101,7 +101,7 @@ nav {
   width: 700px;
   height: 600px;
   display: block;
-  margin-left: 5%;
+  margin-left: 8%;
 }
 
 /* Next & previous buttons */
