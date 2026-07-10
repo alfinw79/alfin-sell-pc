@@ -427,7 +427,7 @@ nav {
 }
 
 /**********HP SCREEN*************/
-@media (min-width: 320px) and (max-width: 767px) {
+@media (min-width: 360px) and (max-width: 767px) {
   /*slider image*/
   .slider-container {
     max-width: 100%;
