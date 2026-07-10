@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   --primary-color: #161616;
+  ***outline: 1px solid red;
 }
 
 html {
@@ -88,9 +89,9 @@ nav {
 .slider-container {
   max-width: 100%;
   margin-top: 65px;
-  margin-left: 15%;
-  box-shadow: 6px 6px 18px 18px rgba(0, 0, 0, 0.243);
+  margin-left: 20%;
   border-radius: 10%;
+  align-items: center;
 }
 
 .slide {
@@ -101,7 +102,7 @@ nav {
   width: 700px;
   height: 600px;
   display: block;
-  margin-left: 8%;
+  margin-left: 5%;
 }
 
 /* Next & previous buttons */
@@ -431,7 +432,6 @@ nav {
 
   .slider-container {
     max-width: 50%;
-    box-shadow: 6px 6px 18px 18px rgba(0, 0, 0, 0.243);
     border-radius: 10%;
   }
   .slide {
@@ -442,14 +442,14 @@ nav {
     width: 270px;
     height: 240px;
     display: block;
-    margin-left: -20px;
+    margin-left: -30px;
   }
   /* Next & previous buttons */
   .prev,
   .next {
-    top: 57%;
+    top: 45%;
     transform: translateY(-50%);
-    margin: 0 50px;
+    margin: 0 20px;
     padding: 16px;
     user-select: none;
     transition: 0.3s ease;
@@ -590,7 +590,7 @@ nav {
   }
 
   .reveal-right {
-    transform: translateX(20px);
+    transform: translateY(20px);
   }
 
   .reveal.active {
