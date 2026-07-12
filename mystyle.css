@@ -342,6 +342,7 @@ nav {
   text-align: center;
   border-top: 8px solid rgb(0, 63, 97);
 }
+
 .footer ul {
   display: flex;
   list-style: none;
@@ -474,7 +475,7 @@ nav {
     flex-wrap: wrap;
   }
   .panel img {
-    margin-left: 20%;
+    margin-left: 5px;
     margin-top: 20px;
     margin-bottom: 25px;
   }
@@ -495,7 +496,7 @@ nav {
   }
 
   .pan-penyimpanan img {
-    margin: 10px 20px 20px 20%;
+    margin: 10px 20px 20px 0;
     border-radius: 0 50px 0 50px;
     box-shadow: 6px 16px 16px 6px rgba(0, 0, 0, 0.299);
   }
@@ -596,6 +597,18 @@ nav {
   .reveal.active {
     opacity: 1;
     transform: translateX(0) translateY(0); /* balik ke tengah */
+  }
+
+  .footer ul {
+    gap: 10px;
+  }
+  .footer li a {
+    font-size: 13px;
+    margin: 10px 5px;
+  }
+
+  .footer p {
+    font-size: 12px;
   }
 }
 
